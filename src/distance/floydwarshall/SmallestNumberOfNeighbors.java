@@ -1,4 +1,4 @@
-package distance;
+package distance.floydwarshall;
 
 import java.util.*;
 
