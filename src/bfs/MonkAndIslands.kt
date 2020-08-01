@@ -29,7 +29,7 @@ fun main() {
     }
 }
 
-fun bfs(graph: Map<Int, List<Int>>, destination: Int): Int {
+private fun bfs(graph: Map<Int, List<Int>>, destination: Int): Int {
     val queue = LinkedList<Int>()
     val visited = BooleanArray(destination + 1)
     queue.offer(1)
